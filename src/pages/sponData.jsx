@@ -184,6 +184,14 @@ const bronzeData = [
     image: 'https://res.cloudinary.com/webwiznitr/image/upload/v1628245520/Assets/Sponsors/voiceflow-logo-white-full_2494_gyc6j3.png',
     alt: 'Voiceflow bronze sponsor for Hackodisha',
   },
+  {
+    id: 27,
+    className: 'logo_small',
+    link: 'https://www.commudle.com/',
+    image: 'https://res.cloudinary.com/webwiznitr/image/upload/v1628196548/Assets/Sponsors/commudle_rzvcpj.png',
+    alt: 'commudle bronze sponsor of Hackodisha',
+  },
+  
 ];
 
 const silverData = [
@@ -214,6 +222,13 @@ const silverData = [
     link: 'https://sudans.tech/',
     image: 'https://res.cloudinary.com/webwiznitr/image/upload/v1627815439/Assets/Sponsors/ST_new_vrfmco.webp',
     alt: 'Sudan Tech silver sponsor for Hackodisha',
+  },
+  {
+    id: 5,
+    className: 'logo_small',
+    link: 'https://streamyard.com/',
+    image: 'https://res.cloudinary.com/webwiznitr/image/upload/v1629099412/Assets/Sponsors/streamyard_o6kfyi.png',
+    alt: 'Streamyard silver sponsor for Hackodisha',
   },
 ];
 
@@ -285,16 +300,16 @@ const eOdishaData = [
     alt: 'eOdisha media partner of Hackodisha',
   },
 ];
-
-const commudleData = [
+const noticeBoardData = [
   {
     id: 7,
-    className: 'logo-commudle',
-    link: 'https://www.commudle.com/',
-    image: 'https://res.cloudinary.com/webwiznitr/image/upload/v1628196548/Assets/Sponsors/commudle_rzvcpj.png',
-    alt: 'commudle media partner of Hackodisha',
+    className: 'logo-noticeboard',
+    link: 'https://www.noticebard.com/',
+    image: 'https://res.cloudinary.com/webwiznitr/image/upload/v1629098925/Assets/Sponsors/noticeboard_ikjtfr.png',
+    alt: 'Noticeboard media partner of Hackodisha',
   },
 ];
+
 
 const goldData = [
   {
@@ -309,9 +324,19 @@ const goldData = [
     className: 'logo-large',
     link: 'https://www.digitalocean.com/',
     image: 'https://res.cloudinary.com/webwiznitr/image/upload/v1627815443/Assets/Sponsors/DigitalOcean1_sf4env.webp',
-    alt: 'Digital Ocean bronze sponsor for Hackodisha',
+    alt: 'Digital Ocean gold sponsor for Hackodisha',
   },
 ];
+
+const githubData = [
+  {
+    id: 3,
+    className: 'logo-github',
+    link: 'https://github.com/',
+    image: 'https://res.cloudinary.com/webwiznitr/image/upload/v1628961683/Assets/Sponsors/GitHub_Logo_White_lmfoza.png',
+    alt: 'Github gold sponsor for Hackodisha',
+  },
+]
 
 const platinumData = [
   {
@@ -335,5 +360,6 @@ export {
   rourkShData,
   BbsrData,
   eOdishaData,
-  commudleData,
+  noticeBoardData,
+  githubData,
 };
